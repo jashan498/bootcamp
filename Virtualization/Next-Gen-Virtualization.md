@@ -2,7 +2,7 @@
 
 ## Index
 
-- [Chapter 1: Considering the Rise of the Digital Economy](#chapter-1:-considering-the-rise-of-the-Digital-Economy)
+- [Chapter 1: Considering the Rise of the Digital Economy](#chapter-1-considering-the-rise-of-the-digital-economy)
 - [Chapter 2: It All Begins with Virtualization](#chapter-2-it-all-begins-with-virtualization)
 - [Chapter 3: Key Characteristics of Next-Gen Virtualization](#chapter-3-key-characteristics-of-next-gen-virtualization)
 - [Chapter 4: Going Beyond Server Virtualization](#chapter-4-going-beyond-server-virtualization)
@@ -52,7 +52,9 @@ The hypervisor abstracts the underlying server resources and enables the hosting
    The main difference between Type 1 and Type 2 hypervisors is that Type 2 hypervisors are typically installed on an existing Operating System. This makes it a hosted hypervisor, seeing as it relies on the host machine’s OS to undertake certain operations like managing calls to the CPU, managing network resources, managing memory and storage. This allows for Type 2 hypervisors to support a wide range of hardware.
    Now, while the goal of both types of hypervisors remained the same, the usage of the underlying Operating System introduced a certain amount of latency. This is because, with a Type 2 hypervisor, all activities and the work of each VM had to go through the host OS.
 
-￼
+<p align="center">
+      <img src="https://github.com/jashan498/bootcamp/blob/master/Hypervisor.png" alt="Types of Hypervisor" height="400" width="700"/>
+</p> <br /> 
 
 ## Benifits of using hypervisors
 
